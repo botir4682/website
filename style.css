@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	border-left: 2px solid indigo;
+	background-image: linear-gradient(to bottom, #dadfeb, white); ;
+	width: 1000px;
+	height: 1500px;
+	margin: 10px auto;
+}
+
+/*---------- ----------*/
+
+#header {
+	background-image: linear-gradient(to bottom, #dadfeb, white);
+	/*border-bottom: 1px solid black;*/
+	height: 70px;
+	display: flex;
+}
+#header .header-left-right {
+	width: 498px;
+}
+
+#header .header-left-right #header-left {
+	height: 68px;
+}
+
+#header .header-left-right #header-left #logoone {
+	font-family: Century Gothic;
+	font-size: 30px;
+	color: darkblue;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#header .header-left-right #header-left #logotwo {
+	font-family: Century Gothic;
+	font-size: 14px;
+	color: darkblue;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+#header .header-left-right #header-right {
+	height: 68px;
+}
+#header .header-left-right #header-right #menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+#header .header-left-right #header-right #menu .limenu {
+	height: 24px;
+	border-radius: 8px;
+	list-style: none;
+	line-height: 22px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-left: 6px;
+}
+#header .header-left-right #header-right #menu .limenu .linkmenu {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+#header .header-left-right #header-right #menu .limenu:hover {
+	/*background-image: linear-gradient(to bottom, lightgrey, grey);*/
+	background-color: lightgrey;
+}
+#header .header-left-right #header-right #menu .limenu:hover .linkmenu {
+	color: black;
+}
+
+
+/*---------- ----------*/
+
+
+#contentone {
+	background-image: url(art.png), url(art.png), url(art.png), url(photo.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 400px, 400px 400px, 400px 400px, 1200px 800px;/*
+	border-bottom: 1px solid black;*/
+	background-position: center center, 130px -20px, 460px -20px, 0px 0px;
+	height: 400px;
+}
+#contentone #minibutton {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	padding-top: 380px;
+}
+#contentone #minibutton .next {
+	background-image: linear-gradient(to bottom, lightgrey, grey);
+	border-radius: 100%;
+	width: 11px;
+	height: 11px;
+	margin-left: 4px;
+}
+#contentone #minibutton .next:hover {
+	background-image: linear-gradient(to bottom, lightblue, blue);
+}
+
+
+/*---------- ----------*/
+
+#contenttwo {/*
+	border-bottom: 1px solid black;*/
+	height: 100px;
+	display: flex;
+}
+#contenttwo .contenttwo-left-right {
+	width: 498px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-left {
+	height: 96px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-left #contenttwo-textone {
+	font-size: 26px;
+	font-family: Century Gothic;
+	color: darkblue;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#contenttwo .contenttwo-left-right #contenttwo-right {
+	height: 96px;
+} 
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton {
+	border-radius: 10px;
+	border: 1px solid grey;
+	background-color: lightgrey;
+	width: 300px;
+	height: 80px;
+	display: flex;
+	margin-top: 6px;
+	margin-left: 140px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-left {
+	width: 100px;
+	height: 78px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-right {
+	width: 198px;
+	height: 78px;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-right #mainbutton-textone {
+	font-size: 18px;
+	font-family: Century Gothic;
+	color: darkblue;
+	padding-left: 8px;
+	padding-top: 11px;
+	font-weight: bold;
+}
+#contenttwo .contenttwo-left-right #contenttwo-right #mainbutton #button-right #mainbutton-texttwo {
+	font-size: 24px;
+	font-family: Century Gothic;
+	color: darkblue;
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+/*---------- ----------*/
+
+#contentthree {/*
+	border-bottom: 1px solid black;*/
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+#contentthree .superfour {
+	border: 1px solid grey;
+	border-radius: 0px;
+	width: 234px;
+	height: 350px;
+	margin-top: 10px;
+}
+#contentthree .superfour .imgfour {
+	background-image: url(img.jpg);
+	background-size: 210px 140px;
+	border: 1px solid black;
+	width: 210px;
+	height: 140px;
+	margin: 10px auto;
+}
+#contentthree .superfour .imgfour .textfour {}
+#contentthree .superfour .textfour .textfour-one {
+	font-size: 18px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	padding-left: 8px;
+}
+#contentthree .superfour .textfour .textfour-two {
+	font-size: 14px;
+	font-family: Century Gothic;
+	padding-left: 8px;
+	padding-top: 8px;
+}
+#contentthree .superfour .link-superfour {
+	border: 1px solid grey;
+	border-radius: 20px;
+	background-color: lightgrey;
+	width: 120px;
+	height: 30px;
+	margin-left: 8px;
+	margin-top: 24px;
+}
+#contentthree .superfour .link-superfour .link-sf-a {
+	font-family: Century Gothic;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 26px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+
+/*---------- ----------*/
+
+#contentfour {/*
+	border-bottom: 1px solid black;*/
+	height: 400px;
+	display: flex;
+}
+#contentfour .contentfour-left-right {
+	margin-top: 10px;
+	width: 498px;
+}
+#contentfour .contentfour-left-right #contentfour-left {
+	height: 396px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#contentfour .contentfour-left-right #contentfour-left	.contentfour-mini {
+	width: 245px;
+}
+#contentfour .contentfour-left-right #contentfour-left	.contentfour-mini .photo-text {
+	height: 50px;
+	display: flex;
+}
+#contentfour .contentfour-left-right #contentfour-left	.contentfour-mini .photo-text .contentfour-img {
+	background-image: url(planet.png);
+	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+#contentfour .contentfour-left-right #contentfour-left	.contentfour-mini .photo-text .contentfour-text {
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 17px;
+	margin-top: 14px;
+	margin-left: 4px;
+}
+#contentfour .contentfour-left-right #contentfour-left	.contentfour-mini .contentfour-text-two {
+	font-size: 15px;
+	font-family: Century Gothic;
+	margin-left: 4px;
+	margin-top: 4px;
+} 
+#contentfour .contentfour-left-right #contentfour-right .contentfour-main #cmaintext {
+	font-size: 17px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	margin-top: 24px;
+	margin-left: 4px;
+}
+#contentfour .contentfour-left-right #contentfour-right .contentfour-main #cmaintext-two {
+	font-size: 15px;
+	font-family: Century Gothic;
+	margin-top: 20px;
+	margin-left: 4px;
+}
+#contentfour .contentfour-left-right #contentfour-right .contentfour-main #cmaintext-link .link-cmaintext-a {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 4px;
+	line-height: 80px;
+}
+
+/*---------- ----------*/
+
+#footer {/*
+	border-bottom: 1px solid black;*/
+	background-color: #565f81;
+	height: 80px;
+	display: flex;
+}
+#footer .footer-left-right {
+	width: 498px;
+}
+#footer .footer-left-right #footer-left {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#footer .footer-left-right #footer-left #footertext-one {
+	font-family: Century Gothic;
+	font-size: 12px;
+	font-weight: bold;
+}
+#footer .footer-left-right #footer-left #footertext-two {
+	font-family: Century Gothic;
+	font-size: 12px;
+	font-weight: bold;
+} 
+#footer .footer-left-right #footer-right #footer-icon {
+	margin-top: 24px;
+	margin-left: 300px;
+	color: grey;
+}
